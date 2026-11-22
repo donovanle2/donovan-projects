@@ -1,0 +1,18 @@
+# List practice
+guests = ['Annie', 'Ben', 'Charles', 'Donald', 'Erica', 'Frank', 'Gene']
+print(guests)
+print("Donald cannot make it")
+guests.remove('Donald')
+print(guests)
+print("Henry is available for dinner")
+guests.append('Henry')
+print(guests)
+print("Aaron is the new guest")
+guests.insert(0, 'Aaron')
+print("Desire is also a new guest")
+guests.insert(3, 'Desire')
+print("Ivy would love to be invited")
+guests.append('Ivy')
+print(guests)
+print("Everyone bailed except for Annie and Charles")
+print(guests)
